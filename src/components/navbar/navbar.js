@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../../assests/logo.svg";
+import Logo from "../../assests/logo.png";
 
 import NavMenu from "./navMenu";
 import { FcMenu } from "react-icons/fc";
