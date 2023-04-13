@@ -9,7 +9,7 @@ import image6 from "../../../assests/Image6.png";
 
 export default function WorkingGallery() {
     return (
-        <div className='mx-7 md:mx-[159px] mt-[54px]'>
+        <div className='mx-7 md:mx-[60px] mt-[54px]'>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 ">
                 <div className='relative'>
                     <img className="h-auto md:h-[523px] w-full md:w-auto rounded-lg" src={image1} alt="" />
