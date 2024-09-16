@@ -10,7 +10,7 @@ import star from "../../../assests/star.svg";
 
 export default function TestimonialCards() {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-11  mx-7 md:mx-[160px]  mt-14'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-11  mx-7 md:mx-[60px]  mt-14'>
             {/* Grid 1 */}
             <div className=" bg-[#F9F9FD] rounded-[20px] mb-[60px] hover:bg-cyan-500">
 
