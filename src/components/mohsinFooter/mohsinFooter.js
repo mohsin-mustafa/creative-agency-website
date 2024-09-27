@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../../assests/logo.svg";
+import logo from "../../assests/logo.png";
 import footerMapImage from "../../assests/footerMapImage.png";
 import footerLine from "../../assests/footerLine.png";
 import Footer from '../footer/footer';
@@ -41,10 +41,10 @@ export default function MohsinFooter() {
 
           {/* <div className='flex justify-start items-start'> */}
           <a href="/">
-            <img src={logo} alt="" className='mt-[70px] scale-150' height={48} width={48} />
+            <img src={logo} alt="" className='mt-[70px]' />
           </a>
           {/* </div> */}
-          <p className="max-w-[356px] text-[#FFFFFF] text-left font-[Poppins] font-medium  text-[16px] leading-6 mt-8">
+          <p className="max-w-[360px] text-[#FFFFFF] text-left font-[Poppins] font-medium  text-[16px] leading-6 mt-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
             exercitation ullamco laboris nisi ut aliquip ex
@@ -78,11 +78,11 @@ export default function MohsinFooter() {
         </div> */}
 
 
-        <div className='justify-start text-left md:text-center '>
+        <div className='justify-start text-left'>
 
           <p className='text-[#FFFFFF] font-[Poppins] font-semibold  text-[20px] leading-7 mt-20'>Our Office</p>
 
-          <img src={footerMapImage} alt="" className='sm:max-w-[250px] max-w-xs mt-8 ml-0 md:ml-auto' />
+          <img src={footerMapImage} alt="" className='sm:max-w-[388px] max-w-xs mt-8' />
 
 
         </div>
